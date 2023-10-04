@@ -1,0 +1,41 @@
+/* styles.css - External CSS */
+
+
+/* Genaral form styles */
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+}
+
+/*style the form sectiom*/
+.form-section{
+    margin-bottom: 20px;
+}
+/* style labels */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* style text input and textareas */
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+/* Apply opacity to the form section with the "opacity" class */
+
+.opacity{
+    opacity: 0.7;
+}
